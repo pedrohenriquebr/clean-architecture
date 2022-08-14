@@ -6,4 +6,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Application\Application.csproj" />
+    <ProjectReference Include="..\Domain\Domain.csproj" />
+    <ProjectReference Include="..\Infra.CrossCutting.Services\Infra.CrossCutting.Services.csproj" />
+    <ProjectReference Include="..\NotificationRunners\NotificationRunners.csproj" />
+    <ProjectReference Include="..\ScheduledTasks\ScheduledTasks.csproj" />
+  </ItemGroup>
+
 </Project>

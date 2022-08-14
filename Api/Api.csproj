@@ -10,4 +10,13 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Application\Application.csproj" />
+    <ProjectReference Include="..\Infra.CrossCutting.IoC\Infra.CrossCutting.IoC.csproj" />
+    <ProjectReference Include="..\Infra.CrossCutting.Services\Infra.CrossCutting.Services.csproj" />
+    <ProjectReference Include="..\Infra.Data\Infra.Data.csproj" />
+    <ProjectReference Include="..\NotificationRunners\NotificationRunners.csproj" />
+    <ProjectReference Include="..\ScheduledTasks\ScheduledTasks.csproj" />
+  </ItemGroup>
+
 </Project>

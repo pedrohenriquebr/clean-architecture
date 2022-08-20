@@ -6,7 +6,7 @@ namespace Infra.CrossCutting.Services;
 public class GenericRepository : BaseRepository, IGenericRepository
 {
 
-    public GenericRepository(MyDBContext dbContext) : base(dbContext)
+    public GenericRepository(MyDbContext dbContext) : base(dbContext)
     {
     }
 

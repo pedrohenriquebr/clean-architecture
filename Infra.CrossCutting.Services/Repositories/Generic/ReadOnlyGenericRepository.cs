@@ -6,7 +6,7 @@ namespace Infra.CrossCutting.Services;
 
 public class ReadOnlyGenericRepository : BaseRepository, IReadOnlyGenericRepository
 {
-    public ReadOnlyGenericRepository(MyDBContext dbContext) : base(dbContext)
+    public ReadOnlyGenericRepository(MyDbContext dbContext) : base(dbContext)
     {
     }
 

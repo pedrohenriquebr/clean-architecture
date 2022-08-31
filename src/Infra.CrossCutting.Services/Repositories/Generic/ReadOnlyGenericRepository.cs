@@ -1,9 +1,8 @@
-﻿using Domain.Interfaces.Repositories;
-using Domain.Interfaces.Repositories.Generic;
+﻿using Domain.Interfaces.Repositories.Generic;
 using Infra.Data;
 using Microsoft.EntityFrameworkCore;
 
-namespace Infra.CrossCutting.Services;
+namespace Infra.CrossCutting.Services.Repositories.Generic;
 
 public class ReadOnlyGenericRepository : BaseRepository, IReadOnlyGenericRepository
 {

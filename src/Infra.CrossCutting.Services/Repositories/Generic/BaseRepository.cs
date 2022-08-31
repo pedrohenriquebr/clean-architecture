@@ -1,9 +1,8 @@
-﻿using Domain.Interfaces.Repositories;
-using Microsoft.EntityFrameworkCore;
-using System.Linq.Expressions;
+﻿using System.Linq.Expressions;
 using Domain.Interfaces.Repositories.Generic;
+using Microsoft.EntityFrameworkCore;
 
-namespace Infra.CrossCutting.Services;
+namespace Infra.CrossCutting.Services.Repositories.Generic;
 
 public abstract class BaseRepository : IBaseRepository
 {

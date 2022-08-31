@@ -1,8 +1,7 @@
-﻿using Domain.Interfaces.Repositories;
-using Domain.Interfaces.Repositories.Generic;
+﻿using Domain.Interfaces.Repositories.Generic;
 using Infra.Data;
 
-namespace Infra.CrossCutting.Services;
+namespace Infra.CrossCutting.Services.Repositories.Generic;
 
 public class GenericRepository : BaseRepository, IGenericRepository
 {

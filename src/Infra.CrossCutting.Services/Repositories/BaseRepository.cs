@@ -1,5 +1,6 @@
 ﻿using Domain.Interfaces.Repositories;
 using System.Linq.Expressions;
+using Domain.Interfaces.Repositories.Generic;
 
 namespace Infra.CrossCutting.Services.Repositories;
 

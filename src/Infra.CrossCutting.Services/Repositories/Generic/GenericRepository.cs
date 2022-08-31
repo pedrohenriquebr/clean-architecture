@@ -1,4 +1,5 @@
 ﻿using Domain.Interfaces.Repositories;
+using Domain.Interfaces.Repositories.Generic;
 using Infra.Data;
 
 namespace Infra.CrossCutting.Services;

@@ -22,6 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Infra.CrossCutting.IoC\Infra.CrossCutting.IoC.csproj" />
     <ProjectReference Include="..\Infra.CrossCutting.Services\Infra.CrossCutting.Services.csproj" />
   </ItemGroup>
 
